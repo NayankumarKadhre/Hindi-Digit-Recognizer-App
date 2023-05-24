@@ -10,7 +10,7 @@ The "Hindi Handwritten Digit Recognition" project is a web application that allo
 
 **Prediction:** Users can make a prediction on the uploaded image by clicking the "Make Prediction" button. The application uses a pre-trained convolutional neural network (CNN) model to predict the digit present in the image. The predicted digit label is then displayed to the user.
 
-**Canvas Drawing: **The application provides a canvas component where users can draw digits directly. The canvas supports freehand drawing. Users can select the stroke width and stroke color for drawing.
+**Canvas Drawing:** The application provides a canvas component where users can draw digits directly. The canvas supports freehand drawing. Users can select the stroke width and stroke color for drawing.
 
 **Canvas Prediction:** After drawing a digit on the canvas, users can click the "Make Prediction" button to make a prediction based on the drawn digit. The application converts the canvas image into the appropriate format and passes it to the pre-trained CNN model for prediction. The predicted digit label is displayed to the user.
 

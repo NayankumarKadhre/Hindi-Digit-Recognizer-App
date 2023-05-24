@@ -43,7 +43,7 @@ def main():
     if uploaded_file is not None:
         image = cv2.imdecode(np.fromstring(uploaded_file.read(), np.uint8), 1)
         st.image(image, channels="BGR", caption="Uploaded Image")
-        if st.button("Make Prediction"):
+        if st.button("Make Prediction", 1):
             predicted_label = make_prediction(image)
             st.write(f"Predicted Label: {predicted_label}")
 
@@ -66,7 +66,7 @@ def main():
         key="canvas",
     )
 
-    if st.button("Make Prediction"):
+    if st.button("Make Prediction", 2):
         if canvas_result.image_data is not None:
             # Convert the canvas image to the appropriate format
             pil_image = Image.fromarray(canvas_result.image_data.astype(np.uint8))

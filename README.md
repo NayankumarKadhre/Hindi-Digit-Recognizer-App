@@ -20,13 +20,21 @@ The "Hindi Handwritten Digit Recognition" project is a web application that allo
 The project utilizes the following libraries and technologies:
 
 **PIL (Python Imaging Library):** Used to manipulate and process images.
+
 **Streamlit:** A web application framework for building interactive applications.
+
 **streamlit-drawable_canvas:** A Streamlit component for drawing on a canvas.
+
 **OpenCV (cv2):** Used for image processing tasks, such as converting images between different color spaces.
+
 **NumPy:** A library for numerical computing, used for array operations.
+
 **Keras:** A deep learning library, used for loading and making predictions with the pre-trained CNN model.
+
 **os:** Used for file system operations, such as creating directories and joining file paths.
+
 **time:** Used for generating a timestamp for naming the saved images.
+
 The application's interface consists of a heading displaying the project name, a file uploader for image upload, the uploaded image display, canvas for drawing, and buttons for making predictions. The application dynamically updates the displayed content based on user interactions.
 
 By combining image processing techniques, machine learning, and an intuitive user interface, the "Hindi Handwritten Digit Recognition" project provides a convenient and interactive way to recognize and predict handwritten digits in the Hindi language.

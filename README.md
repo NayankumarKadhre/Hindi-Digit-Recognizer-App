@@ -1,6 +1,6 @@
 # Hindi-Digit-Recognizer-App
 
-The "Hindi Handwritten Digit Recognition" project is a web application that allows users to upload photos of hindi handwritten digits or draw hindi digits directly on a canvas. It leverages machine learning techniques to predict the corresponding digit from the uploaded or drawn image.
+The "Hindi Handwritten Digit Recognition" project is a web application that allows users to upload photos of hindi handwritten digits or draw hindi digits directly on a canvas. It leverages a hybrid CNN-LSTM deep learning model to predict the corresponding digit from the uploaded or drawn image.
 
 ## Functionality:
 
